@@ -1,0 +1,13 @@
+
+/* CHINATHIP GAME - custom CSS for the Bootstrap 5 template */
+body { font-family: "Segoe UI", Tahoma, sans-serif; }
+.main-nav .logo h3 { letter-spacing: .5px; }
+.chinathip-highlight { color:#00bcd4; font-weight:800; }
+.game-note { border-radius:12px; padding:18px; background:#f4f7ff; }
+@media (max-width: 767px){ .main-nav .logo h3{font-size:20px;} }
+
+.main-nav .nav.active{display:block!important;}
+@media(max-width:991px){
+  .main-nav .nav.active{display:block!important;}
+  .main-nav .nav.active li{display:block;margin:8px 0;}
+}
